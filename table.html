@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Class Fare</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 500px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ccc;
+        }
+
+        th {
+            background-color: #a6a4a4;
+            color: #fff;
+        }
+
+        .price {
+            font-weight: bold;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                max-width: 100%;
+                margin: 10px;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Business Class Fare</h1>
+        <table>
+            <tr>
+                <th>Item</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td style=" padding-left: 180px;" class="price">Minimum fare</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Pickup fare</td>
+                <td class="price">£11</td>
+            </tr>
+            <tr>
+                <td>Duration</td>
+                <td class="price">£0.85/min</td>
+            </tr>
+            <tr>
+                <td>Distance</td>
+                <td class="price">£1.4/mi</td>
+            </tr>
+            <tr>
+                <td style=" padding-left: 180px;" class="price">Waiting Time</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>First 5 min after the arrival of a car</td>
+                <td class="price">Free</td>
+            </tr>
+            <tr>
+                <td>After the free period</td>
+                <td class="price">£0.85/min</td>
+            </tr>
+            <tr>
+                <td style=" padding-left: 180px;" class="price">CANCELLATION FEES</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Within 5 mins of a chauffeur being assigned</td>
+                <td class="price">Free</td>
+            </tr>
+            <tr>
+                <td>After the first 5 mins</td>
+                <td class="price">£20 + £1.4/mi</td>
+            </tr>
+            <tr>
+                <td>After the chauffeur has arrived</td>
+                <td class="price">£20 + £0.85/min + £1.4/mi</td>
+            </tr>
+            <tr>
+                <td style=" padding-left: 180px;" class="price">EXTRA CHARGES</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Parking fee</td>
+                <td class="price">Extra Charge 3</td>
+            </tr>
+            <tr>
+                <td>Toll road fee</td>
+                <td class="price">Extra Charge 3</td>
+            </tr>
+            <tr>
+                <td>Congestion Charge Zone</td>
+                <td class="price">£34</td>
+            </tr>
+            <tr>
+                <br>
+                <td style="" class="price">Additional Information</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Minimum fares within the city boundary may vary by zone. Precise fares will be shown when booking your journey.</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Calculated based on the distance between the pickup location and the city boundary, rounded down to the nearest £5.</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Any incurred parking or toll fees will be added to the journey total, without markup.</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Chauffeur reimbursement for all journeys that start, end, or pass through the London Congestion Charge Zone.</td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

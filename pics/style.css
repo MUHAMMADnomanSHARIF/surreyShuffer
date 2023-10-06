@@ -1,0 +1,462 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: lightgray;
+
+
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-position: fixed;
+    background-image: url("9879db75127190b804242063bacde58f.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-attachment: fixed;
+    text-shadow: 2px 2px 2px #0c0707;
+}
+
+
+
+/* .text {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 30%;
+    left: 0;
+    color: white;
+
+} */
+.riding {
+    background-color: lightgray;
+    padding: 0;
+    object-fit: cover;
+}
+
+.riding img {
+    object-fit: cover;
+    padding: 0;
+    margin: 0;
+}
+
+.abc {
+    background-color: black;
+}
+
+.service {
+    color: white;
+}
+
+.card {
+    height: 105vh;
+}
+
+
+.card-img-top {
+    width: 100%;
+    height: 40vh;
+    border-radius: 10px;
+}
+
+.image {
+    width: 100%;
+    height: 60vh;
+}
+
+hr {
+    color: white;
+    font-size: 45px;
+}
+
+/* end  */
+
+
+.last {
+    height: 80vh;
+    width: 100%;
+    background-position: fixed;
+    background-image: url("airport.jpg");
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    text-shadow: 2px 2px 2px #0c0707;
+}
+
+
+
+.content {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+
+}
+
+/* TESTIMONIAL */
+
+
+
+.testimonial {
+    padding: 80px 0;
+}
+
+.sec-heading {
+    margin-bottom: 60px;
+}
+
+.sec-heading h6 {
+    font-family: allura;
+    font-weight: 900;
+    font-size: 80px;
+}
+
+.single-box {
+    border: 3px solid #e6f0fa;
+    padding: 50px 30px 40px;
+    border-radius: 20px;
+    background: #fff;
+}
+
+.img-area {
+    margin: 45px 0 20px;
+}
+
+.single-box img {
+    max-width: 100px;
+    border-radius: 50%;
+    margin: 0 auto
+}
+
+.single-box h5 {
+    font-weight: 300;
+    margin: 0;
+    font-family: 'Allura', cursive;
+    font-size: 15px;
+}
+
+.single-box {
+    overflow: hidden
+}
+
+.single-box .img-area {
+    width: 30%;
+    float: left;
+    margin: 0
+}
+
+.single-box .content {
+    width: 70%;
+    float: left;
+    padding-left: 10px
+}
+
+.single-box p {
+    /* margin: 10px 0 25px; */
+    margin-top: 10px;
+    margin-left: 70px;
+    margin-right: 0;
+    line-height: 1.3;
+    padding: 0;
+}
+
+.testi-carousel-three .single-box {
+    border: 0;
+    padding: 0 50px;
+}
+
+.testi-carousel .owl-dots,
+.clients-carousel .owl-dots,
+.testi-carousel-three .owl-dots {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -60px;
+    text-align: center;
+    width: 100%;
+}
+
+.testi-carousel .owl-dot,
+.clients-carousel .owl-dot,
+.testi-carousel-three .owl-dot {
+    width: 16px;
+    height: 16px;
+    background-color: #ddd;
+    display: inline-block;
+    margin: 0 6px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.testi-carousel .owl-dot.active,
+.clients-carousel .owl-dot.active,
+.testi-carousel-three .owl-dot.active {
+    background-color: blueviolet;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 479px) {
+    .testimonial {
+        padding: 70px 0 130px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 359px) {
+    .testimonial {
+        padding: 70px 0 130px;
+    }
+
+    .single-box {
+        padding: 50px 0 40px;
+    }
+
+    .single-box .img-area {
+        width: 100%;
+        float: none;
+    }
+
+    .single-box .content {
+        width: 100%;
+        float: none;
+    }
+}
+
+/* fleet */
+.fleet {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #d2cfcf;
+    border: 1px solid #ccc;
+}
+
+.image-container {
+    flex: 1;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.details-container {
+    flex: 2;
+    padding: 20px;
+}
+
+.price-container {
+    flex: 1;
+    padding: 20px;
+    background-color: #a6a4a4;
+    border: 1px solid #ccc;
+    max-width: 400px;
+    max-height: 400px;
+    overflow: auto;
+}
+
+.buttons-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    margin-bottom: 10px;
+    cursor: pointer;
+    width: 70%;
+    background-color: #a6a4a4;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 1.5s;
+    color: #000;
+    text-align: center;
+}
+
+/* Hover animation for buttons */
+.button:hover {
+    background-color: #999;
+    transform: scale(1.05);
+}
+
+/* Active button style */
+.button.active {
+    background-color: #fff;
+    color: #000;
+}
+
+.price-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.price-table th,
+.price-table td {
+    border: none;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+.price-table th {
+    border-bottom: 1px solid #ccc;
+    background-color: #a6a4a4;
+}
+
+.price-table tr:last-child td {
+    border-bottom: 1px solid #ccc;
+}
+
+/* Media query for screens smaller than 768px (typical mobile screens) */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .buttons-container {
+        order: 1;
+        /* Move buttons to the top */
+    }
+
+    .image-container {
+        order: 2;
+        /* Move image below buttons */
+    }
+
+    .details-container {
+        order: 3;
+        /* Move details below image */
+    }
+
+    .price-container {
+        order: 4;
+        /* Move price below details */
+    }
+
+    .button {
+        width: 100%;
+        /* Full width buttons for smaller screens */
+    }
+}
+
+
+/* end 
+ */
+
+
+/* About us page */
+.about {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    font-weight: 900;
+    background-color: lightgray;
+}
+
+.mission {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    color: white;
+    text-align: start;
+
+}
+
+.about1 {
+    height: 100vh;
+    width: 100%;
+    background-position: fixed;
+    background-image: url("airport2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    text-shadow: 2px 2px 2px #0c0707;
+}
+
+
+
+/* end about us page */
+
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
+.service-7 {
+  font-family: "Montserrat", sans-serif;
+	color: #8d97ad;
+  font-weight: 300;
+}
+
+.service-7 h1, .service-7 h2, .service-7 h3, .service-7 h4, .service-7 h5, .service-7 h6 {
+  color: #3e4555;
+}
+
+.service-7 .font-weight-medium {
+	font-weight: 500;
+}
+
+.service-7 a {
+	text-decoration: none;
+}
+
+.service-7 .linking {
+	color: #3e4555;
+}
+
+.service-7 .linking:hover {
+	color: #316ce8;
+}
+
+.service-7 .subtitle {
+    color: #8d97ad;
+    line-height: 24px;
+}
+
+.service-7 .btn-info-gradiant {
+	  background: #188ef4;
+    background: -webkit-linear-gradient(legacy-direction(to right), #188ef4 0%, #316ce8 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#188ef4), to(#316ce8));
+    background: -webkit-linear-gradient(left, #188ef4 0%, #316ce8 100%);
+    background: -o-linear-gradient(left, #188ef4 0%, #316ce8 100%);
+    background: linear-gradient(to right, #188ef4 0%, #316ce8 100%);
+}
+
+.service-7 .btn-info-gradiant:hover {
+	  background: #316ce8;
+    background: -webkit-linear-gradient(legacy-direction(to right), #316ce8 0%, #188ef4 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#316ce8), to(#188ef4));
+    background: -webkit-linear-gradient(left, #316ce8 0%, #188ef4 100%);
+    background: -o-linear-gradient(left, #316ce8 0%, #188ef4 100%);
+    background: linear-gradient(to right, #316ce8 0%, #188ef4 100%);
+}
+
+.service-7 .btn-md {
+    padding: 15px 45px;
+    font-size: 16px;
+}
